@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ContactManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DataStructures": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContactManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManager.dll": {}
+        }
+      },
+      "DataStructures/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/DataStructures.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructures.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContactManager/1.0.0": {
+      "type": "project",
+      "path": "../ContactManager/ContactManager.csproj",
+      "msbuildProject": "../ContactManager/ContactManager.csproj"
+    },
+    "DataStructures/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/DataStructures/DataStructures.csproj",
+      "msbuildProject": "../../DataStructures/DataStructures/DataStructures.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ContactManager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/robert/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj",
+      "projectName": "cm",
+      "projectPath": "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj",
+      "packagesPath": "/Users/robert/.nuget/packages/",
+      "outputPath": "/Users/robert/Projects/ADS1/ContactManager/cm/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/robert/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj": {
+              "projectPath": "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

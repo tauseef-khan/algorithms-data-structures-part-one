@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj": {}
+  },
+  "projects": {
+    "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj",
+        "projectName": "cm",
+        "projectPath": "/Users/robert/Projects/ADS1/ContactManager/cm/cm.csproj",
+        "packagesPath": "/Users/robert/.nuget/packages/",
+        "outputPath": "/Users/robert/Projects/ADS1/ContactManager/cm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/robert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj": {
+                "projectPath": "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj",
+        "projectName": "ContactManager",
+        "projectPath": "/Users/robert/Projects/ADS1/ContactManager/ContactManager/ContactManager.csproj",
+        "packagesPath": "/Users/robert/.nuget/packages/",
+        "outputPath": "/Users/robert/Projects/ADS1/ContactManager/ContactManager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/robert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/robert/Projects/ADS1/DataStructures/DataStructures/DataStructures.csproj": {
+                "projectPath": "/Users/robert/Projects/ADS1/DataStructures/DataStructures/DataStructures.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/robert/Projects/ADS1/DataStructures/DataStructures/DataStructures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/robert/Projects/ADS1/DataStructures/DataStructures/DataStructures.csproj",
+        "projectName": "DataStructures",
+        "projectPath": "/Users/robert/Projects/ADS1/DataStructures/DataStructures/DataStructures.csproj",
+        "packagesPath": "/Users/robert/.nuget/packages/",
+        "outputPath": "/Users/robert/Projects/ADS1/DataStructures/DataStructures/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/robert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.4"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.4": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
